@@ -1,0 +1,37 @@
+<div class="add-caption" style="
+    width: 300px;
+    height: 160px;
+    background: white;
+    position: absolute;
+    bottom: 55px;
+    right: 0px;
+    -webkit-filter: drop-shadow(0px 2px 5px rgba(0,0,0,0.8));
+"><i class="icon-caret-down icon-white" style="
+    position: absolute;
+    font-size: 30px;
+    bottom: -19px;
+    right: 9px;
+"></i>
+
+<textarea placeholder="Tell us in a few words why did you like this. You can add some #hashtags too." style="
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 15px;
+    
+    font-family: 'Open Sans';
+    outline: none;
+    font-weight: 300;
+"></textarea>
+<div class="privacy" style="
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #aaa;
+    line-height: 30px;
+    border-radius: 3px;
+"><i class="icon-lock"></i></div>
+</div>

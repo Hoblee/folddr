@@ -1,0 +1,331 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans';
+	background: #efede9;
+}
+
+#head {
+	background: white;
+	background-image: url(/img/comingsoon/comingsoon2/logo.png);
+	width: 100%;
+	height: 102px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#big-message {
+	background-color: #ed4854;
+	background-image: url(/img/comingsoon/comingsoon2/pinkxel.png);
+	height: 202px;
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 30px;
+	color: white;
+	text-transform: uppercase;
+}
+
+#big-message .normal {
+	font-weight: 700;
+	font-size: 29px;
+	line-height: 36px;
+}
+
+#big-message .big {
+	font-size: 62px;
+	font-weight: 900;
+	line-height: 64px;
+}
+
+form .container {
+	width: 330px;
+	margin: auto;
+	margin-top: -50px;
+	position: relative;
+}
+
+form input[type="text"] {
+	width: 245px;
+	height: 45px;
+	border: none;
+	outline: none;
+	background: white;
+	border-radius: 60px;
+	margin: 5px;
+	padding-left: 50px;
+	padding-right: 20px;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	color: #888;
+	font-size: 12px;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 1;
+}
+
+form .border {
+	width: 315px;
+	height: 46px;
+	border: 5px solid rgba(219, 74, 74, 0.39);
+	background: transparent;
+	border-radius: 50px;
+	position: absolute;
+	top: 22px;
+	z-index: 0;
+}
+
+form i {
+	position: relative;
+	top: 38px;
+	left: 26px;
+	color: #555;
+	z-index: 2;
+}
+
+form input[type="submit"] {
+	width: 180px;
+	height: 36px;
+	background-color: #5fcc7b;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 11px;
+	border: none;
+	border-radius: 30px;
+	font-family: 'Open Sans';
+	margin: auto;
+	display: block;
+	margin-top: 15px;
+}
+
+form input[type="submit"]:hover {
+	opacity: .75;
+	cursor: pointer;
+}
+
+form .login {
+	text-align: center;
+	font-size: 11px;
+	margin-top: 10px;
+	font-weight: 500;
+}
+
+form .login a {
+	color: #ed4854;
+	text-decoration: none;
+}
+
+form .login a:hover {
+	text-decoration: underline;
+}
+
+#screenshot {
+	width: 777px;
+	height: 234px;
+	border: 14px solid #d6d4d1;
+	background-image: url(/img/comingsoon/comingsoon2/screenshot.png);
+	margin: auto;
+	margin-top: 20px;
+}
+
+#info, #footer {
+	width: 940px;
+	margin: auto;
+}
+
+#info {
+	margin-top: 40px;
+	width: 970px;
+}
+
+#info .item {
+	display: inline-block;
+	width: 290px;
+	vertical-align: top;
+	font-size: 12px;
+	line-height: 24px;
+	padding: 0 15px;
+	text-align: justify;
+}
+
+#info .item .head {
+	font-size: 27px;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 36px;
+	margin-bottom: 10px;
+}
+
+#footer {
+	margin-top: 20px;
+	border-top: 1px solid #d0ccc3;
+	padding-top: 20px;
+	margin-bottom: 30px;
+	color: #333;
+}
+
+#footer .login {
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+#footer a.login-btn {
+	display: block;
+	width: 100px;
+	height: 21px;
+	background-color: #ed4854;
+	background-image: url(/img/comingsoon/comingsoon2/pinkxel.png);
+	border-radius: 20px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	line-height: 21px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+#footer a.login-btn:hover {
+	opacity: .75;
+	cursor: pointer;
+}
+
+#footer .share {
+	float: right;
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+#footer .share .social {
+	margin-top: 10px;
+}
+
+#footer .share .social a {
+	width: 41px;
+	height: 41px;
+	border-radius: 41px;
+	display: inline-block;
+	margin-left: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#footer .share .social a:hover {
+	opacity: .75;
+	cursor: pointer;
+}
+
+#footer .share .social a.facebook {
+	background-color: #35519a;
+	background-image: url(/img/comingsoon/comingsoon2/facebook.png);
+}
+
+#footer .share .social a.twitter {
+	background-color: #4ec2e2;
+	background-image: url(/img/comingsoon/comingsoon2/twitter.png);
+}
+.error {
+	color:red;text-transform:uppercase;font-family:'Open Sans'; font-weight: bold;
+}
+
+#mobile {
+	display: none;
+}
+
+
+
+@media screen and (max-device-width: 480px) { 
+	.wrapper {
+		display: none;
+	}
+
+	.error {
+		color: white;
+	}
+
+	#mobile {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-image: url(../../img/mobile_bg.jpg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	#mobile .w {
+		background-color: rgba(0,0,0,.5);
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+		display: inline-block;
+	}
+
+	#mobile .logo {
+		width: 190px;
+		margin: 30px auto;
+		height: 110px;
+		background-image: url(../../img/mobile_splash.png);
+		background-size: contain;
+		background-position: left;
+		background-repeat: no-repeat;
+	}
+
+	#mobile .text {
+		text-align: center;
+		font-size: 14px;
+		text-transform: uppercase;
+		width: 280px;
+		margin: auto;
+		color: white;
+		font-weight: bold;
+	}
+
+	#mobile .text h4 {
+		font-size: 30px;
+		margin: 0;
+	}
+
+	#mobile div.signup {
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	
+	#mobile div.signup a.signup {
+		background-color: rgba(255,255,255,0.3);
+		color: white;
+		text-decoration: none;
+		font-size: 11px;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding: 5px;
+		border-radius: 50px;
+		display: inline-block;
+	}
+
+	#mobile div.signup a.signup span {
+		background-color: #5fcc7b;
+		display: inline-block;
+		line-height: 35px;
+		padding: 0 50px;
+		border-radius: 30px;
+	}
+
+	#mobile div.signup .login {
+		margin-top: 8px;
+		color: white;
+		font-size: 11px;
+	}
+
+	#mobile div.signup a {
+		font-weight: bold;
+		text-decoration: none;
+		color: white;
+	}
+}
